@@ -1,0 +1,31 @@
+mysql -h192.168.100.26 -P3306 -ugroup007 -pwelcome
+
+---> use group007_campus;
+
+ create table Log(id int primary key auto_increment,curr_date date,curr_time time,message varchar(50));
+
+ create table Log(id int primary key auto_increment,curr_date date,curr_time time,message varchar(50));
+
+
+mongod --dbpath "c:\database" --journal
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName
+
+
+
+
+
+
+ CN = new MySqlConnection
+                ("Server=192.168.100.26;port=3306;" +
+                "user Id=group007;password=welcome;database=group007 ");
+            CN.Open();
+            if(CN.State==ConnectionState.Open)
+            {
+                MessageBox.Show("Connection Successfull");
+            }
+            else
+            {
+                MessageBox.Show("Connection Failed..!");
+            }
+        }
